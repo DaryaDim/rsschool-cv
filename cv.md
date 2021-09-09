@@ -1,6 +1,6 @@
 Darya Kozlova
 ============
-
+Junior Frontend Developer
 -------------------
 1 MyAddress
 
@@ -20,3 +20,9 @@ Tech skills:
  * HTML
  * CSS
  * JAVASCRIPT
+  
+  Languages:
+    *Russian - Native
+    *English - Basic
+    *Polish - Basic
+
