@@ -1,1 +1,1 @@
-https://github.com/DaryaDim/rsschool-cv.git
+https://DaryaDim.github.io/rsschool-cv/
