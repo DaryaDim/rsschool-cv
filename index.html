@@ -7,127 +7,122 @@
   <title>CV: Darya Kazlova</title>
   <style>
     * {
-  padding: 0;
-}
- 
-body {
-
+    padding: 0;
+    }
+    
+    body {
+    
     box-sizing: border-box;
     background-color: #f5f5f5;
-}
-
-
-.conteiner {
-  width: 620px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-
-.header {
-  padding: 20px 0;
-}
-
-.author {
-  margin-left: 15px;
-  vertical-align: top;
-}
-
-
-#great-text {
+    }
+    
+    .header {
+    
+    display: flex;
+    }
+    
+    .author {
+    margin-left: 15px;
+    vertical-align: top;
+    }
+    
+    
+    #great-text {
     display: block;
     width: 640px;
     font-family: "Poppins", sans-serif;
     position: absolute;
     top: 177px;
-    left: 118px;
-    color: rgba(153, 153, 153, 1);
-  
-}
-
-
-h2 {
+    right:  118px;
+    color: rgb(49, 15, 240);
+    
+    }
+    
+    
+    h2 {
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
-}
-
-h3 {
-  text-align: center;
-  color: #2c3e50;
-}
-
-hr {
-  border: none;
-  color: #eee;
-  background-color: #eee;
-  height: 1px;
-}
-
-
-
-p {
-  text-align: left;
-  color: #34495e;
-}
- 
-a {
-  text-decoration: none;
-  color: #3498db;
-}
-
-li {
-  margin: 10px 0;
-  list-style-type: none;
-}
-
-img {
-  display: inline-block;
-  vertical-align: middle;
-  padding-right: 5px;
-}
-
-
-
-.main .about-me {
+    }
+    
+    h3 {
+    text-align: center;
+    color: #2c3e50;
+    }
+    
+    hr {
+    border: none;
+    color: #eee;
+    background-color: #eee;
+    height: 1px;
+    }
+    
+    
+    
+    p {
+    text-align: left;
+    color: #34495e;
+    }
+    
+    a {
+    text-decoration: none;
+    color: #3498db;
+    }
+    
+    li {
+    margin: 10px 0;
+    list-style-type: none;
+    }
+    
+    img {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 5px;
+    }
+    
+    
+    
+    .main .about-me {
     position: relative;
-}
-#gray-1 {
-    margin: 0 0 0 auto;
-}
-.gray {
-    position: relative;
-   
-   background: #f6f6f6;
-}
-#photo {
-    display: block;
-   
-    margin: 0 0 0 auto ;
-}
-.divider_blue {
+    }
+  .photo{ width: 300px;
+    
+    background: #f6f6f6;
+    }
+
+    .divider_blue {
     display: block;
     height: 2px;
     background-color: #006efe;
     margin-bottom: 1em;
-}
-.container .aside .education__place {
+    }
+    .container .aside .education__place {
     font-weight: 600;
     font-size: 20px;
-}
-.container .aside .education__descr {
+    }
+    .container .aside .education__descr {
     padding-left: 20px;
     font-size: 16px;
     font-weight: 500;
+    }
+    footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(221, 36, 166);
+    background-color: #006efe;
 }
-</style>
+    </style>
 </head>
 
 <body>
-  <div class="conteiner">
-    <div class="header">
-      <div class="gray" id="gray-1">
+ <header>
 
-        <img src="OO4EYhcTDu8.jpg" alt="Photo" id="photo">
+  
+  
+      <div class="photo">
+
+        <img src="OO4EYhcTDu8.jpg" alt="Photo" class="photo">
       </div>
       <div class="author"></div>
       <h1 id="great-text">
@@ -135,10 +130,12 @@ img {
         I’m Darya <br>
         Kozlova
       </h1>
-        </div>
-      </div>
+      </header>
+  
  
-          <h2>About me</h2>
+        
+
+        <h2>About me</h2>
           <div class="divider_blue"></div>
         <div class="author">
           <p> I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new
@@ -146,6 +143,7 @@ img {
             courses will help me gain useful knowledge.
           </p>
         </div>
+     
     
     <h2>Education</h2>
     <div class="divider_blue"></div>
@@ -156,20 +154,27 @@ img {
       International economic relations and marketing
       </p>
   </div>
-   
-      <h2>contacts</h2>
-      
-    <div class="divider_blue"></div>
-    <div class="education__place">
-      email: 1234567890dasha82@gmail.com
+   <aside>
+      <h2>Contacts      </h2> 
+      <div class="divider_blue"></div>
+       <ul>
+     <li> email: 1234567890dasha82@gmail.com</li>
+      </ul>
       <p class="education__descr">
        
       </p>
- 
-    </div>
+    <h2>English</h2> 
+    <div class="divider_blue"></div>
+      
+      Estimated level:
+      <div>A1+</div>
+      <p class="education__descr">
+       
+    </aside>
  
   <footer>
-    <a href="https://github.com/DaryaDim/rsschool-cv.git">CV</a>
+    <a href="https://github.com/DaryaDim/rsschool-cv.git">My github</a>
+    <p>© 2021</p>
    <p> <a href="https://rs.school/js/"> <img src="https://rs.school/images/rs_school_js.svg" alt="logo" width="50" height="50"></a></p>
   </footer>
 </body>
